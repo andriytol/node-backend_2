@@ -40,7 +40,7 @@ const mongoose = require('mongoose')
 const app = require('./app')
 
 const DB_HOST = 'mongodb+srv://andriy:bY9OhZkF4TjwO1dL@cluster0.miwmj1a.mongodb.net/books_reader?retryWrites=true&w=majority&appName=Cluster0'
-
+// ef
 // mongoose.set('strictQuery', true)
 
 mongoose.connect(DB_HOST)
